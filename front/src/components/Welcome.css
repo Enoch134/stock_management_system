@@ -1,0 +1,50 @@
+.adminStockDetails {
+    /* margin-right: 0px; */
+    /* margin-right: auto; */
+    /* box-shadow: 0px 0px 10px 0px #0000008a; */
+    border-radius: 10px;
+    /* background-image: url("../assets/bg1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: orangered; */
+    width: 16%;
+    margin: auto;
+
+}
+.bg1 {
+    box-shadow: 0px 0px 10px 0px #0000008a;
+    background-image: url("../assets/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.length {
+    font-size: 25px;
+    font-weight: 800;
+    background-color: orange;
+    box-shadow: 0px 0px 10px 0px #4338388a;
+    border-radius: 10px;
+}
+
+.header {
+    font-size: 13px;
+    /* color: white; */
+    font-weight: 700;
+    /* background-color: black; */
+    /* box-shadow: 0px 0px 10px 0px #4338388a; */
+}
+
+@media screen and (max-width: 992px) {
+    .adminStockDetails {
+      width: 50%;
+    }
+    .bg1{
+        width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .adminStockDetails {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,8 @@
+.suggestion{
+  cursor:pointer;
+  margin-right: 1px solid black;
+  margin-left: 1px solid black;
+  margin-bottom: 1px solid black;
+  text-align: end;
+ 
+}

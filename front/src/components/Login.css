@@ -1,0 +1,79 @@
+/* .loginPage::before {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    background-image: url("../assets/Orangelogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    opacity: 0.5;
+} */
+
+.loginPage {
+    height: 120%;
+    background-image: url("../assets/Orangelogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    margin-bottom: -200px;
+}
+
+.formOne {
+    background-color: white;
+    box-shadow: -3px 0px 10px -3px #000000;
+    /* margin-top: -5000px; */
+   
+    border-radius: 20px;
+    align-items: center;
+    background-image: url("../assets/orangesl.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin-top: '-300px'; */
+}
+
+.inputField {
+    background-color:white;
+    box-shadow: -3px 0px 10px -3px #000000;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    /* margin: auto; */
+    margin-left: auto;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+   
+}
+
+.btnField {
+    background-color:black;
+    box-shadow: -3px 0px 10px -3px #000000;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.log{
+    width:5%;
+    height:10%;
+    margin:10px;
+}
+.lab{
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .log {
+     
+      max-width: 100%;
+    }
+  }
